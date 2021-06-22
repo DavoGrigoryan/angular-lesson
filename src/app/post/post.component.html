@@ -1,0 +1,12 @@
+<h1 class="title">Hello Angular jan</h1>
+
+<!--<p><img []="img"></p>-->
+<p><button (click)="onClick11()">click</button></p>
+<input
+  type="text"
+  (keydown.enter)="onInput($event)"
+  (blur)="onBlur(myInput.value)"
+  #myInput
+>
+<p>{{inputValue}}</p>
+

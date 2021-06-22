@@ -1,0 +1,8 @@
+<a routerLink="/home">Home</a>
+<p>login works!</p>
+
+<!--<input [(ngModel)]="title" >-->
+
+
+<button (click)="backgroundToggle = !backgroundToggle">click</button>
+<p [ngStyle]="{color:'white',background:backgroundToggle?'red':'blue'}" >{{title}}</p>
